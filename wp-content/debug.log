@@ -1,0 +1,17 @@
+[12-Mar-2026 23:35:42 UTC] PHP Warning:  Undefined array key "host" in /workspaces/UX-308-Assignment-2/.wordpress/wp-includes/pluggable.php on line 1721
+[12-Mar-2026 23:46:27 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/UX-308-Assignment-2/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
+[12-Mar-2026 23:51:01 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /workspaces/UX-308-Assignment-2/.wordpress/wp-content/themes/blazing-food/functions.php on line 15
+[12-Mar-2026 23:51:01 UTC] PHP Warning:  Trying to access array offset on false in /workspaces/UX-308-Assignment-2/.wordpress/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[12-Mar-2026 23:51:01 UTC] PHP Warning:  Trying to access array offset on false in /workspaces/UX-308-Assignment-2/.wordpress/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[12-Mar-2026 23:51:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ic_string_contains() in /workspaces/UX-308-Assignment-2/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php:467
+Stack trace:
+#0 /workspaces/UX-308-Assignment-2/.wordpress/wp-includes/class-wp-hook.php(341): IC_EPC_Tracking->paused_plugin_report_email(Array, 'http://localhos...')
+#1 /workspaces/UX-308-Assignment-2/.wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /workspaces/UX-308-Assignment-2/.wordpress/wp-includes/class-wp-recovery-mode-email-service.php(223): apply_filters('recovery_mode_e...', Array, 'http://localhos...')
+#3 /workspaces/UX-308-Assignment-2/.wordpress/wp-includes/class-wp-recovery-mode-email-service.php(62): WP_Recovery_Mode_Email_Service->send_recovery_mode_email(86400, Array, Array)
+#4 /workspaces/UX-308-Assignment-2/.wordpress/wp-includes/class-wp-recovery-mode.php(185): WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email(86400, Array, Array)
+#5 /workspaces/UX-308-Assignment-2/.wordpress/wp-includes/class-wp-fatal-error-handler.php(55): WP_Recovery_Mode->handle_error(Array)
+#6 [internal function]: WP_Fatal_Error_Handler->handle()
+#7 {main}
+  thrown in /workspaces/UX-308-Assignment-2/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 467
+[12-Mar-2026 23:53:02 UTC] PHP Parse error:  Unclosed '(' on line 15 does not match '}' in /workspaces/UX-308-Assignment-2/.wordpress/wp-content/themes/blazing-food/functions.php on line 16
